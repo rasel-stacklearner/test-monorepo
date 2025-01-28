@@ -1,0 +1,20 @@
+{
+  "name": "@sl/jest-presets",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "client": "git clean -xdf .cache .turbo node_modules"
+  },
+  "files": [
+    "./browser/jest-preset.json",
+    "./node/jest-preset.json"
+  ],
+  "author": "Rasel Hossain",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}

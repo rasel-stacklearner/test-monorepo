@@ -1,0 +1,32 @@
+{
+  "name": "sl_monorepo",
+  "private": true,
+  "scripts": {
+    "i": "pnpm install && pnpm prepare",
+    "build": "turbo build",
+    "start": "turbo start",
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,scss,md}\"",
+    "clean": "turbo clean",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@types/lint-staged": "^13.3.0",
+    "@types/node": "^17.0.43",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "catalog:",
+    "prettier-plugin-tailwindcss": "^0.6.10",
+    "turbo": "catalog:",
+    "typescript": "catalog:"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

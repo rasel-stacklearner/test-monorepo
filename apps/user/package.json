@@ -1,0 +1,35 @@
+{
+  "name": "user",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "client": "git clean -xdf .cache .turbo node_modules"
+  },
+  "dependencies": {
+    "@sl/tailwind": "workspace:*",
+    "@sl/ui": "workspace:*",
+    "lucide-react": "^0.473.0",
+    "next": "catalog:nextjs-15",
+    "react": "catalog:react-19",
+    "react-dom": "catalog:react-19",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@sl/eslint-config": "workspace:*",
+    "@sl/typescript-config": "workspace:*",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react-19",
+    "@types/react-dom": "catalog:react-19",
+    "eslint": "catalog:",
+    "eslint-config-next": "15.1.6",
+    "postcss": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  }
+}
